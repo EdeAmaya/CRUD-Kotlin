@@ -7,6 +7,7 @@
     app:cardCornerRadius="20dp"
     app:cardUseCompatPadding="true"
     app:contentPadding="15dp"
+    app:cardBackgroundColor="#76D3DF"
     android:layout_width="match_parent"
     android:layout_height="120dp"
     tools:context=".item_card">
@@ -17,10 +18,25 @@
 
     <TextView
         android:id="@+id/txtProductoCard"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="TextView"
         android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imgEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        app:srcCompat="@drawable/baseline_edit_24" />
+
+    <ImageView
+        android:id="@+id/imgBorrar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        app:srcCompat="@drawable/baseline_delete_24" />
+
 </LinearLayout>
 </androidx.cardview.widget.CardView>

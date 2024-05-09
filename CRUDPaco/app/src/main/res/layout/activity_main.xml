@@ -15,6 +15,7 @@
         android:ems="10"
         android:hint="  Nombre"
         android:inputType="text"
+        android:textAlignment="viewStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -39,8 +40,8 @@
 
     <EditText
         android:id="@+id/txtCantidad"
-        android:layout_width="217dp"
-        android:layout_height="34dp"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
         android:background="@drawable/cuadrito"
         android:ems="10"
         android:hint="  Cantidad"
