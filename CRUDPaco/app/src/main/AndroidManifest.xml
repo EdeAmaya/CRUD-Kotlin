@@ -15,6 +15,9 @@
         android:theme="@style/Theme.CRUDPaco"
         tools:targetApi="31">
         <activity
+            android:name=".detalles_productos"
+            android:exported="false" />
+        <activity
             android:name=".item_card"
             android:exported="false" />
         <activity
